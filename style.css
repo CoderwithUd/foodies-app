@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Righteous&display=swap");
+
+* {
+  padding: 0px 0px;
+  width: 0px 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f43127;
+  --Secondary: #ffffff;
+  --cardbg: #fad6c6;
+  --card: #f6f1e7;
+}
+
+body {
+  background: #ffe7dc;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/*Navbar style is start*/
+
+header i {
+  color: black;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+  color: var(--primary);
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-nav li {
+  margin: 0px 30px;
+  font-family: "Righteous", sans-serif;
+}
+
+header hr {
+  height: 5px;
+  color: var(--primary);
+}
+
+/*Navbar style is end*/
+
+/*footer Background style start here*/
+footer {
+  background-color: var(--primary);
+  color: var(--Secondary);
+  position: relative;
+}
+
+footer hr {
+  color: white;
+}
+
+footer .img-fluid {
+  width: 10%;
+  /* Adjust the width as needed */
+  max-width: 100px;
+  /* Set a maximum width */
+  height: auto;
+  position: absolute;
+}
+
+#heading-img-6 {
+  top: -0.5%;
+  right: -0.5%;
+  width: 7%;
+  height: auto;
+}
+
+footer .navbar-brand {
+  color: var(--Secondary);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+footer .dropdown button {
+  background-color: var(--Secondary);
+  color: black;
+}
+
+footer .btn {
+  background-color: var(--primary);
+  color: var(--Secondary);
+  border: 1px solid var(--Secondary);
+}
+
+/*footer Background style end here*/
+
+
+/* --------------------------------------------Home Us Page Style stated here ----------------------------------
+----------------------------------------------------------------------------------------------------------------*/
+.Home-start-view {
+  position: relative;
+}
+
+.Home-start-view h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 05px;
+  text-align: left;
+}
+
+.Home-start-view h1 span {
+  color: var(--primary);
+  text-decoration: underline;
+
+}
+
+.Home-start-view h1 img {
+  width: 80px;
+  height: auto;
+  right: 0px;
+}
+
+.Home-start-view button {
+  border-radius: 30px;
+}
+
+.para {
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 20px 6px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+/* home page start img of website */
+.Home-start-image {
+  position: relative;
+}
+
+.home-img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+}
+
+/* use multiple id beacuse in given figam small img are plaecd in different postions  */
+#home-img1 {
+  right: 10px;
+}
+
+#home-img2 {
+  bottom: 5px;
+  right: 30px;
+}
+
+#home-img3 {
+  bottom: 81px;
+  left: -36px;
+  transform: rotate(-27deg);
+}
+
+#home-img4 {
+  left: -90px;
+  top: 16px;
+}
+
+/* home page about  use multiple id beacuse in given figama small img are plaecd in different postions */
+#home-about1 {
+  bottom: -10px;
+  left: -15px;
+}
+
+#home-about2 {
+  transform: rotate(45deg);
+  left: 15px;
+}
+
+#home-about3 {
+  bottom: -30px;
+  right: 80px;
+}
+
+.home-last-text {
+  text-align: left;
+}
+
+.home-last-text span {
+  color: var(--primary);
+}
+
+.people-choose {
+  background-color: var(--Secondary);
+  border-radius: 50%;
+}
+
+/*home  page frist slider section */
+.home-first-card {
+  background-color: var(--Secondary);
+  border-radius: 20px;
+  box-shadow: 2px 5px rgb(189, 187, 187);
+}
+
+.home-first-card img {
+  width: 30%;
+  height: auto;
+}
+
+
+/* slider style */
+.home-slider-owl{
+  background-color: #F9D2C0  ;
+  padding: 20px;
+  border-radius: 4%;
+  position: relative;
+}
+
+.owl-item .card {
+  background-color: #F6F1E7;
+  border-radius: 7%;
+  box-shadow: 6px 1px 17px 3px #b1b0b0;
+  margin: 10px 20px;
+}
+.owl-theme{
+  background-color: #F9D2C0;
+  border-radius: 3%;
+  margin: 50px 50px;
+}
+.owl-item span {
+  color: var(--primary);
+}
+
+.slider-star {
+  background-color: var(--Secondary);
+  width: 20%; 
+  border-radius: 5%;
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-borders span {
+  height: 5px;
+  background:var(--primary);
+  width: 40px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.section-borders span.black-border {
+  background:#420303;
+  width: 30px;
+  margin: 0 6px;
+
+}
+/* last section in home page */
+.home-last-img {
+  background-color: #fabe2e;
+  border-radius: 15%;
+  background-image: url("https://s3-alpha-sig.figma.com/img/ae86/5d8b/072b0682fd6f0840860a382cf7d689e5?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z4N-H8NFlNEkzxMou~3QjCvgBqIpCYchO6kUvPHZ9KtFP7CTHu3~af2QsU98kMs0xPYsJrD9uGF3560tC3ZPCRdJuTFhuT4PH-5P~M2-jzi-C3odKYtTx-qLPSIQZTF17Z1HN~BIPZgj788-rWYN3LYGt0nyBnYBENFSp66cYJb59NZLUzXvaqCzKG23d9Lug278StKUwvZYK9fa4iTAKZ8gdr2URTvhQnpA7wwAX025X3safylIFHtWhxHVVOfzM91nvs4Zd5ddXUvMqYcVmPDI7YrgH1FhR~OEyRt1eYZJqNDuURJ5F1HWRQ40H9ckRH~FGa1kVOIoc33coYareA__");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 10px;
+  box-shadow: 1px 7px rgb(196, 195, 195);
+}
+
+.home-last-img img {
+  border-radius: 15%;
+}
+
+/* --------------------------------------------Home Page Style end here ----------------------------------
+----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* --------------------------------------------About Us Page Style stated here ----------------------------------
+----------------------------------------------------------------------------------------------------------------*/
+
+.about-top-heading-l h1 span {
+  color: var(--primary);
+}
+
+.about-top-heading .col {
+  background-color: var(--Secondary);
+  box-shadow: 2px 8px rgb(192, 190, 190);
+  border-radius: 10px;
+}
+
+.about-top-heading .col img {
+  width: 25px;
+}
+
+.about-video img {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.about-video {
+  position: relative;
+}
+
+.about-video-text {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  color: var(--Secondary);
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.about-video-text h2 {
+  color: #FDC913;
+  font-family: "Righteous", sans-serif;
+  padding: 10px 5px;
+  font-size: 40px;
+}
+
+.about-small-mess {
+  position: relative;
+  left: 30%;
+  margin: 20px 10px;
+  width: 40%;
+  text-align: center;
+  color: #00000080;
+}
+
+.about-owl-theme .about-card {
+  background-color: var(--cardbg);
+}
+
+
+.about-card img {
+  height: 330px;
+}
+
+.about-card-text {
+  padding: 20px 10px;
+  border-radius: 5%;
+  width: 90%;
+  position: relative;
+  bottom: 40px;
+  background-color: var(--Secondary);
+  box-shadow: 2px 7px rgb(180, 179, 179);
+}
+
+.about-card-text i {
+  color: var(--primary);
+  margin-right: 20px;
+  margin-left: 5px;
+
+}
+
+/* --------------------------------------------About Us Page Style End here -----------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* --------------------------------------------Shop Page Style stated here-------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+.btn-group button {
+  background-color: var(--Secondary);
+  border-radius: 10px;
+  padding: 5px 20px;
+  box-shadow: 1px 5px rgb(176, 172, 172);
+}
+
+.Shop-cart {
+  border-radius: 10px;
+  box-shadow: 1px 7px rgb(197, 196, 196);
+}
+
+.Shop-cart p {
+  font-size: 12px;
+}
+
+.fa-star {
+  color: var(--primary);
+}
+
+.fa-heart {
+  font-size: 20px;
+}
+
+.Shop-cart button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 20px;
+}
+
+.shop-heading {
+  font-weight: bold;
+}
+
+.pagination a {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--Secondary);
+  border-radius: 10px;
+}
+
+.pagination li {
+  margin: 0px 8px;
+
+}
+
+.page-item a:hover {
+  background-color: var(--primary);
+}
+
+/* ------aside section of shop is style start here -------*/
+.side-Categories,
+.side-filter,
+.side-Today {
+  background-color: var(--card);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.side-Categories img {
+  width: 25px;
+  height: auto;
+}
+
+/* ---side filter ----*/
+
+
+.slider {
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.slider .progress {
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #cfdc1a;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  color: var(--primary);
+}
+
+/*----Today side-----*/
+.side-Today img {
+  width: 50px;
+  height: auto;
+}
+
+.side-Today .row {
+  margin: 20px 0px;
+}
+
+/* offer section buy2 get 1 free*/
+.offer {
+  background-color: #341E13;
+  color: var(--Secondary);
+  padding: 20px 25xp;
+  border-radius: 20px;
+  margin: 45px 0px;
+}
+
+.offer-img {
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.buy-1get {
+  border-radius: 50%;
+  background-color: #fabe2e;
+  width: 40%;
+  height: 100px;
+  padding: 10px 12px;
+  position: absolute;
+  left: 100px;
+}
+
+.buy-1get span {
+  color: var(--primary);
+}
+
+.offer-img img {
+  bottom: -10px;
+}
+
+/* --------------------------------------------Shop Page Style End here --------------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------CARD Page Style stated here ---------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+.order-map {
+  margin: 30px 10px;
+}
+
+.order-map p {
+  position: relative;
+  top: 15px;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.order-map div {
+  background-color: var(--primary);
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px 25px;
+  font-size: 20px;
+  color: var(--Secondary);
+}
+
+.order h2 span {
+  color: var(--primary);
+}
+
+.placeorder {
+  background-color: var(--Secondary);
+  padding: 12px 15px;
+  margin: 20px 0px;
+}
+
+.price-detail h6 span {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.price-detail .row {
+  margin: 10px 0px;
+}
+
+.order-left .row {
+  margin: 20px 0px;
+  padding: 15px;
+  background-color: var(--Secondary);
+}
+
+.order-left h5 {
+  font-size: 15px;
+
+}
+
+.order-left p {
+  font-size: 10px;
+}
+
+/* --------------------------------------------Card Page Style end here ---------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* --------------------------------------------Contact Page Style stated here ---------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/
+
+.top-page-heading h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+}
+
+.top-page-heading {
+  background-color: var(--primary);
+  color: var(--Secondary);
+  text-align: center;
+  padding: 30px;
+  position: relative;
+}
+
+.top-page-heading img {
+  width: 10%;
+  /* Adjust the width as needed */
+  max-width: 100px;
+  /* Set a maximum width */
+  height: auto;
+  position: absolute;
+}
+
+/* Adjust image positions */
+#heading-img-1 {
+  left: 20%;
+  bottom: 2%;
+  width: 4%;
+  height: auto;
+}
+
+#heading-img-2 {
+  right: 15%;
+  bottom: 2%;
+  width: 4%;
+  height: auto;
+}
+
+#heading-img-3 {
+  left: 5%;
+  top: 5%;
+  width: 7%;
+  height: auto;
+}
+
+#heading-img-4 {
+  right: 30%;
+  top: 2%;
+  width: 7%;
+  height: auto;
+}
+
+#heading-img-5 {
+  right: 5%;
+  bottom: 10%;
+  width: 7%;
+  height: auto;
+}
+
+.contact-sub-left i {
+  color: var(--primary);
+}
+
+.iframe {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* --------------------------------------------Contact Page Style end here -----------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* Media queries for different screen sizes */
+@media (min-width: 430px) and (max-width: 576px) {
+  .top-page-heading img {
+    width: 7%;
+  }
+
+  .fliter-section {
+    display: none;
+  }
+
+  .Home-start-view h1 {
+    font-size: 40px;
+  }
+
+  .order-map p span {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-page-heading img {
+    width: 6%;
+  }
+
+  .about-video-text {
+    font-size: 20px;
+    right: 10px;
+  }
+
+  .Shop-cart p {
+    font-size: 8px;
+  }
+
+  .fa-star {
+    font-size: 7px;
+  }
+
+  .Shop-cart button {
+    background-color: var(--primary);
+    border: none;
+    border-radius: 20px;
+    font-size: 8px;
+  }
+
+  .shop-heading {
+    font-size: 15px;
+  }
+
+  .shop .col-4 {
+    display: none;
+  }
+
+  .shop .col-8 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-page-heading img {
+    width: 4%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .top-page-heading img {
+    width: 3%;
+  }
+}
+
+/* --------------------------------------------Media query Style end  here ---------------------------------------
+-------------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Bootstrap links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!--Fontasome link-->
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Foodies</title>
+</head>
+
+<body>
+  <!--Header Section start here  -->
+  <header>
+    <div class="container navbar-item">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://png.pngtree.com/png-clipart/20230628/original/pngtree-kitchen-logo-vector-png-image_9234692.png"
+              alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+            Foodies
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <a href="card.html" class="mx-3">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a href="#" class="mx-3">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a href="#" class="mx-3">
+              <i class="fa-solid fa-table-cells"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <hr />
+    </div>
+  </header>
+  <!--Header Section end here  -->
+
+  <section>
+    <div class="container-fluid top-page-heading">
+      <h2>Shop Page</h2>
+      <h1 class="h1">Choose your items</h1>
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/399f/4ad6/8c38067c495691e306369d58ed681fb6?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pXVqp94lpG0dzZh6hGZXFGvk74c1Re2EQ5XV7JZa7U4CtyUPPQetwoEU6TscC7XHrpcFL~SqBEVeupt1TytTtjTeEowUkTPMRtXqd7d7lWh-~qQODo8Z97EXCak1XRWcVQQIsbkzugcdn-1IfYdmxMjcxJzzdt3I2EijUhO6TtaNo-GC-wJ6Ki45dZIyX8Q6DY0bca2BxU5J~D8vmhSQl0WlL8UjRghfXd5-DZT8p1KbrFut5MCl0BKoMqD3oRxlMkXt1kxyB-7WY8rBl39b9ZxrW7t1hc2ojtFos4-CrM1f60fdgUvAdlNX0qgqIS3EL9xJYkfnh2-3b7PI-bb7Lg__"
+        id="heading-img-1" alt="" />
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/399f/4ad6/8c38067c495691e306369d58ed681fb6?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pXVqp94lpG0dzZh6hGZXFGvk74c1Re2EQ5XV7JZa7U4CtyUPPQetwoEU6TscC7XHrpcFL~SqBEVeupt1TytTtjTeEowUkTPMRtXqd7d7lWh-~qQODo8Z97EXCak1XRWcVQQIsbkzugcdn-1IfYdmxMjcxJzzdt3I2EijUhO6TtaNo-GC-wJ6Ki45dZIyX8Q6DY0bca2BxU5J~D8vmhSQl0WlL8UjRghfXd5-DZT8p1KbrFut5MCl0BKoMqD3oRxlMkXt1kxyB-7WY8rBl39b9ZxrW7t1hc2ojtFos4-CrM1f60fdgUvAdlNX0qgqIS3EL9xJYkfnh2-3b7PI-bb7Lg__"
+        id="heading-img-2" alt="" />
+
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/9e4f/47bf/006bb32d4c2c06761d37dfc268ae398d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nrpm9Yig4AnFrU3QChJC9AfGVyF7l4msbnENhwntypIGpl-wIWfknJ-CtCcN9pIUCw3oL4GcRX~oxmtN5GHMZ441n~BqBAUbu2JW0oskOH8WnxKoI8INHAGD6wuUTME6G4pkSgUm3E06ozIi8LnI85QnCEO7BrM5BzalFyCZtwj9QIx-B2UlwEE6mgTKn7sUJSUHtyec1dnKEPxRmY2MGQ5H83Z5ErgskKX40Y~bn5yWgFknHwRZ0YyLDmSvcUWzZaWuQNYPljlp8ChUr9vB6h0dk3MoD29S561BAtfegcVmPGuxnsAeEaE8znlNUU-hWlUM0AvhSdcYUfVOx8~zxw__"
+        alt="" id="heading-img-3" />
+
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/9e4f/47bf/006bb32d4c2c06761d37dfc268ae398d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nrpm9Yig4AnFrU3QChJC9AfGVyF7l4msbnENhwntypIGpl-wIWfknJ-CtCcN9pIUCw3oL4GcRX~oxmtN5GHMZ441n~BqBAUbu2JW0oskOH8WnxKoI8INHAGD6wuUTME6G4pkSgUm3E06ozIi8LnI85QnCEO7BrM5BzalFyCZtwj9QIx-B2UlwEE6mgTKn7sUJSUHtyec1dnKEPxRmY2MGQ5H83Z5ErgskKX40Y~bn5yWgFknHwRZ0YyLDmSvcUWzZaWuQNYPljlp8ChUr9vB6h0dk3MoD29S561BAtfegcVmPGuxnsAeEaE8znlNUU-hWlUM0AvhSdcYUfVOx8~zxw__"
+        alt="" id="heading-img-4" />
+
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/9e4f/47bf/006bb32d4c2c06761d37dfc268ae398d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Nrpm9Yig4AnFrU3QChJC9AfGVyF7l4msbnENhwntypIGpl-wIWfknJ-CtCcN9pIUCw3oL4GcRX~oxmtN5GHMZ441n~BqBAUbu2JW0oskOH8WnxKoI8INHAGD6wuUTME6G4pkSgUm3E06ozIi8LnI85QnCEO7BrM5BzalFyCZtwj9QIx-B2UlwEE6mgTKn7sUJSUHtyec1dnKEPxRmY2MGQ5H83Z5ErgskKX40Y~bn5yWgFknHwRZ0YyLDmSvcUWzZaWuQNYPljlp8ChUr9vB6h0dk3MoD29S561BAtfegcVmPGuxnsAeEaE8znlNUU-hWlUM0AvhSdcYUfVOx8~zxw__"
+        alt="" id="heading-img-5" />
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="container text-center">
+        <div class="row shop">
+          <div class="col-4">
+            <aside>
+              <div class="container my-5">
+                <div class="input-group mb-3 my-5">
+                  <input type="text" class="form-control" aria-label="Search your itmes"
+                    placeholder="Search your itmes">
+                  <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="side-Categories">
+                  <div class="container text-start">
+                    <h3 class="h3 my-3">Categories</h3>
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/5895/09f0/fc7158c20d14f965ded9a4968cf57d68?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AWxLKAIoTpQgvJ1BjLAHKItNez7iv2qiYurSMyb6UK7WpqPr6vRO403YzO7woVEgkjEPYY1kk6EH67xSKs4eMJ4lJZWv6mRWWmQvfP8KbTlu3bamyOSf8a-wRXtsqZRrzx5pfG5rGhcDPH1iQXAQHype2GHpy78xt9rp58xnGitZzE2VEylpP5Y7Pd6YuIrEeXLta7tN5e0h2sjcosKC7EBAm9TZQocMOteDWny2npgMHFTEcgA7yAvcQTcoD3gUi3wV5UjIORqO~uDQZsiQ1W8zpocI0yFEVNmpS0tWZLPEqvJVhcrHzsRvd-bc7~BKdK3x78BauSSc-NiXdCTkXQ__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">Ramen </p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(5)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/25db/b26d/d0a2bcdd52f1888363ba2c2eaaa6886c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IraiQ-PMEOauEDfQkbrGifqBahszGMvPwigAgKY4b890xgv8LvHuYZmB~8ebXhQh3efvf--6I3VghCUsuwR5Y5wF3DZ1Pk66t~NSrq3BmT2cpt3BE3NhMJXxk4fH7OMdBmDqUgPwBXkwcO2qhsAfUmvUhfhp~C~-S5EsYeM8mTYu19Nq7PPU0SNZB0FLKey2kzUgwOLN6Hm72yr3bhpPuQkkPP19mfdCLICvqcOjCmpUE1zlmNlsmFm~IXni7d4X0f3fQC9tDFmvVLur~NfETJPeaf5Qx2yRiROmQPgc4hw9MjBBkLnP4isw2~U5qM6OEm-UNyhFu~Uft~GNP8yRcQ__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">Pizza</p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(9)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/43bc/2321/2057bdba262c4d258e03faaac424bd88?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R-SLMmS-ZF-iQMj7i8MVW0IhPVzPNME-ckdOcJDPb5-BS5ZmfOh6tOQKvMFi~is4UvjgCQH-z29sOtwyejYywwmdX7EBLPlJVoOL0R7815qvQddh4Cq4yM0OdVI5hH9oGQOssXk6LE1OdoV1B~rRXFLzUgiNRRlRze3Z44XyoxdwZou1P43VyEltI-agEBC7qBiJQ5wvWeEeZTjrT3oM0tL2EWE6XeOjGFMEPRIDKOseKK~dcrVL8iFGx8-ZQL~35VvfPZ7GSJpNb8rgopFcYbCfTeiaH~VkFu4jeMtwQQiRmLnI6-vGcvhNQGUe3BiqcFz3K5jTdoUTC7Bf5b-VoA__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">Burger</p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(18)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/ec25/b582/e2089694df2a526ac5c29f5c9541d585?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mJv9Iki5PcHQD7lll9SyOtOdN6X~-RsxyUh4aUSTRguikxqwQQtBZMx3L-178H3kmNqnRq6frEzpmnPtdH1YOIenOz9B97p2ehbBrRWm6~CJxcjZicJdAEB8vM6sHISoZYQ6GPVVqYBuC~Vj4YcsLXdXtpe4~LNK6A28xni2pjWUW7hKwuI4~95SplyK88PT2pP1b9v6iZ7B1VzGAaJrEWwIpyCUvVWNsgF-GAIKeCO-tAUFV7lBuoQbp2yDwpWUvTQRfhi5EuDvJKsCL-Pcg1ptFjxdD0XIPdf7mFj1GI-opnLkxPd7uKgNppUFQDunrtCEGJh~GiUYmF1IWsY2ug__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">French Fries</p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(14)</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/c9dc/b760/5f96e81ceaf50ecdc6047e1400ea2989?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TekJl5VZ3huijxRRGcjNGAgbFYU9DyKl9UGehxTS-p9JTShz0mux3Y-gHmY4Faey6Y2NLHpdw0bW1JNe--Vc7oA838UTWx0WTr5Xo7dTnA7ivhflxbitfFBVP~C7yGDmTeonl~5C95URLFndpQJd4iCjKKZbxZBwmzOe-gP6k1hFl8umPL9Td4-XO6e8vOFUbCY2GJJ0NMuQDfC7tuUiJauVNI6wW1CdhAmwHKg9Ikx3sciOVGfgB1zz2oJ9xNh6nxICDwTlw-McsXDAEkpxBeFjsNlzo75hQJdJDs252iGB779a9kL5ENU9FI5NbFCnnKkY1X9awbikWHjmVF2ZzQ__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">Fast food</p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(10)</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-6 col-md-2"><img
+                          src="https://s3-alpha-sig.figma.com/img/ad86/4994/205d85e31914597c1e31c33b0fb6a6c7?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HELHTbu~ijcFzB7l1WaytrWixjd9wqvcu6-coI4wAKSbKcyAdEPG5duFbyDACpAtHpAlsemIL1fnLZ3x1mQrk6Qdr~dWKiUBO4uQEX38tcTqW9gtYsSMGLhh~Bz5BnwcyRWXAgcGEqVt7qP9Mp4bgJfGh9Vilmvw9G5u57QebmVIgSo2hrwADpvknXvJr4SlDW2Off4AA7~qOaME6MZPiHvV2GZPljKSpiDA8HEWlWCbBbNy~wusI7w-V~Uw~ipdz7h7pDzHhtI~QSq4z1Ygg~N1e61dF9uRh1FU0qg281zJFRd1ScAyMb8y5A6MezcZEgof2G8YsU5P0r7d6iwGpw__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <p class="h6 ">Soft Drink's</p>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(28)</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="side-filter my-5 text-start p-3">
+                  <h3>Filter by Price</h3>
+
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="80" value="30" step="5" aria-label="#">
+                  </div>
+                  <div class="d-flex justify-content-between py-3">
+                    <button type="button" class="btn btn-danger">Filter</button>
+                    <div class="price-input">
+                      <div class="field">
+                        <p class="h5">Price :<span>$5</span> - <span> $40</span></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="side-Today">
+                  <div class="container text-start">
+                    <h4 class="h4 my-3">Today's Best Deals</h4>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/d17e/732f/9ebb392ba25e2b97436fb9c1113d2c32?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WcQL63lPwHsLqD3HKhioZAV1IQFmofw-5ZAx6JcQM46Jpl-UMozYkbkUH6ObtCnz-z2-fwEQU9U78Kev8fgtmcRRsBumjYJy0qzycrnWV2tP~~B-6Av120qOjXJ0uyMFSU5r6jWIp1hbuA7sc5gPZ8f0ipy358XNa6BuJ75raJwL~O4CVkWOHsywMyA24nVfB2k1IZFor946ZBPD1yzz7CcztEEtax8OYUw-YhPpe8NDDw5C8FZrCiou-hSDKJytXQ6ecUd~BpecaTERVc8mEZQa9uyNvfKdnEQFzNZwvtnz2VvZOZHSTbRi3GKNIGdKJrggXt3z3kG2b1fkHi-i2Q__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/d17e/732f/9ebb392ba25e2b97436fb9c1113d2c32?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WcQL63lPwHsLqD3HKhioZAV1IQFmofw-5ZAx6JcQM46Jpl-UMozYkbkUH6ObtCnz-z2-fwEQU9U78Kev8fgtmcRRsBumjYJy0qzycrnWV2tP~~B-6Av120qOjXJ0uyMFSU5r6jWIp1hbuA7sc5gPZ8f0ipy358XNa6BuJ75raJwL~O4CVkWOHsywMyA24nVfB2k1IZFor946ZBPD1yzz7CcztEEtax8OYUw-YhPpe8NDDw5C8FZrCiou-hSDKJytXQ6ecUd~BpecaTERVc8mEZQa9uyNvfKdnEQFzNZwvtnz2VvZOZHSTbRi3GKNIGdKJrggXt3z3kG2b1fkHi-i2Q__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/d17e/732f/9ebb392ba25e2b97436fb9c1113d2c32?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WcQL63lPwHsLqD3HKhioZAV1IQFmofw-5ZAx6JcQM46Jpl-UMozYkbkUH6ObtCnz-z2-fwEQU9U78Kev8fgtmcRRsBumjYJy0qzycrnWV2tP~~B-6Av120qOjXJ0uyMFSU5r6jWIp1hbuA7sc5gPZ8f0ipy358XNa6BuJ75raJwL~O4CVkWOHsywMyA24nVfB2k1IZFor946ZBPD1yzz7CcztEEtax8OYUw-YhPpe8NDDw5C8FZrCiou-hSDKJytXQ6ecUd~BpecaTERVc8mEZQa9uyNvfKdnEQFzNZwvtnz2VvZOZHSTbRi3GKNIGdKJrggXt3z3kG2b1fkHi-i2Q__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-3"><img
+                          src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                          alt="" class="img-fluid "></div>
+                      <div class="col-6 col-md-6">
+                        <div>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>&29.00</span>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-1">
+                        <p>(462)</p>
+                      </div>
+                    </div>
+
+
+
+
+                  </div>
+
+
+                </div>
+                <div class="offer text-center p-3">
+                  <h2>Special <br> Deliciaus</h2>
+                  <h6>Maxican Pizza Testes Better</h6>
+                  <button type="button" class="btn btn-danger my-3">Order Now</button>
+                  <div class="offer-img">
+                    <div class="buy-1get">
+                      <h5>Buy2 <br> Get1 <br><span>Free</span></h5>
+                    </div>
+
+                    <img
+                      src="https://s3-alpha-sig.figma.com/img/b30d/2d4e/8e054de694e5cc6b7d9c26970cff6181?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E4iTibLbVLHmtVa8z4zcj66QPs6FErybmI5PoXEMTxYpHS3duSmlfvm~mESOJe61loFqUuLPQB6w20OlwzOQoU7Wi1AmnRL8Oct9b2ZW8Iv1Lu0CYiZyThOJ~GK~xTEtsX~dPS-NG87SwdJr579L2LviD5WprwEvoZr6V78VmEWCsouxZcfDd~cMEg~ExT6ou~StUwjT5RVjWtsVn2wgm-fW7rIDdH9~M0uc2yHjEtNL7B6iT3vO68PrfG44o8Ttvdxbh1EFjAGzaJi1V5sv6le2DupUrr1P0tKB~S4fh5kqWEDPmoPaMcuUgjY5IY6F9mTT9rLIef70VsM9a8rKwQ__"
+                      alt="" class="img-fluid">
+
+                  </div>
+
+                </div>
+              </div>
+
+            </aside>
+
+          </div>
+          <div class="col-8 p-3">
+            <!-- Example single danger button -->
+            <div class="d-md-flex justify-content-md-end m-5">
+              <div class="btn-group">
+                <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Default sorting
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Margherita Pizza</h3>
+                    <p class="card-text">
+                      Margherita Pizza features a thin crust topped with three basic ingredients: fresh tomato sauce,
+                      mozzarella cheese, and fresh basil leaves.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Margherita Pizza</h3>
+                    <p class="card-text">
+                      Margherita Pizza features a thin crust topped with three basic ingredients: fresh tomato sauce,
+                      mozzarella cheese, and fresh basil leaves.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Margherita Pizza</h3>
+                    <p class="card-text">
+                      Margherita Pizza features a thin crust topped with three basic ingredients: fresh tomato sauce,
+                      mozzarella cheese, and fresh basil leaves.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/2b7a/850d/3b7d90a87214e3fcd32f9571e92ce007?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OHI0VG7et1RSX~tGCbmH8FzlaLLaZYg8CTOmQHIqXiTwKaNlLkB3AgUqkgIP3ycdXcSB59qa5BjQzAQwsNG4uSiUqxdE2xBo67wUXL6ZlsI4glbWNvS~~yDl431j92cpZknVUSb1kuHqDzyPR93tyUblE8K3pdnbSbuW3aRfFSyiehv-iOIuBJkZt42RMbO9Q4tFjXfEK~KqraY1kZ1Qr-vn89YgDf5cCSrNKXUVEFFt45TFDB1NZZNhsKpvLJ1Wc18WX-qODkbFHiZW~-G~oQHSMHyTcGUoc0AHnK~bPkPMLzYRGbArdRU~1MR~YVzVvoJ4Y9W-4XLomk9iKdzZOA__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Margherita Pizza</h3>
+                    <p class="card-text">
+                      Margherita Pizza features a thin crust topped with three basic ingredients: fresh tomato sauce,
+                      mozzarella cheese, and fresh basil leaves.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/feee/1b82/0fbecd0e2b6c37f40362ba2c7e4bc47c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YrcTC2iF00hhn-TI3snYoRXC3nYE21pjJYs-ke4rbYYDwKfijtOhbl05wIi5~9EL3Kcz7hVhZ66NXGi2mC0zpac~ETiWQvwpFsk~y0To74iOassTAGuGGug2MgOhbMbZp6Vue2AfgFpRrZicDScL~Pt8gLQDBEY9bmyL8sxfitGB7TMqkFPedBnQbkLsnbWt0VpBgac6aAYsyYZwRpwLlHB3Yn55eTurJC5sBOb401G1deMZGITdGIXmeZx9E4tQzjEsH79~zTn5cJddKk34~a71VDaVIOaMd-7SccTZGdAE6pngunqx8OeWr72WEpR26h9qG2dbpEvfaDzoQftq8w__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Patty Buns Burgers</h3>
+                    <p class="card-text">
+                      Patty Buns Burgers is renowned for its diverse selection of gourmet burgers, including options
+                      with Angus beef, chicken, or vegetarian patties, all served on freshly baked buns.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/feee/1b82/0fbecd0e2b6c37f40362ba2c7e4bc47c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YrcTC2iF00hhn-TI3snYoRXC3nYE21pjJYs-ke4rbYYDwKfijtOhbl05wIi5~9EL3Kcz7hVhZ66NXGi2mC0zpac~ETiWQvwpFsk~y0To74iOassTAGuGGug2MgOhbMbZp6Vue2AfgFpRrZicDScL~Pt8gLQDBEY9bmyL8sxfitGB7TMqkFPedBnQbkLsnbWt0VpBgac6aAYsyYZwRpwLlHB3Yn55eTurJC5sBOb401G1deMZGITdGIXmeZx9E4tQzjEsH79~zTn5cJddKk34~a71VDaVIOaMd-7SccTZGdAE6pngunqx8OeWr72WEpR26h9qG2dbpEvfaDzoQftq8w__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Patty Buns Burgers</h3>
+                    <p class="card-text">
+                      Patty Buns Burgers is renowned for its diverse selection of gourmet burgers, including options
+                      with Angus beef, chicken, or vegetarian patties, all served on freshly baked buns.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/feee/1b82/0fbecd0e2b6c37f40362ba2c7e4bc47c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YrcTC2iF00hhn-TI3snYoRXC3nYE21pjJYs-ke4rbYYDwKfijtOhbl05wIi5~9EL3Kcz7hVhZ66NXGi2mC0zpac~ETiWQvwpFsk~y0To74iOassTAGuGGug2MgOhbMbZp6Vue2AfgFpRrZicDScL~Pt8gLQDBEY9bmyL8sxfitGB7TMqkFPedBnQbkLsnbWt0VpBgac6aAYsyYZwRpwLlHB3Yn55eTurJC5sBOb401G1deMZGITdGIXmeZx9E4tQzjEsH79~zTn5cJddKk34~a71VDaVIOaMd-7SccTZGdAE6pngunqx8OeWr72WEpR26h9qG2dbpEvfaDzoQftq8w__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Patty Buns Burgers</h3>
+                    <p class="card-text">
+                      Patty Buns Burgers is renowned for its diverse selection of gourmet burgers, including options
+                      with Angus beef, chicken, or vegetarian patties, all served on freshly baked buns.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card Shop-cart">
+                  <i class="fa-regular fa-heart text-end m-3 "></i>
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/feee/1b82/0fbecd0e2b6c37f40362ba2c7e4bc47c?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YrcTC2iF00hhn-TI3snYoRXC3nYE21pjJYs-ke4rbYYDwKfijtOhbl05wIi5~9EL3Kcz7hVhZ66NXGi2mC0zpac~ETiWQvwpFsk~y0To74iOassTAGuGGug2MgOhbMbZp6Vue2AfgFpRrZicDScL~Pt8gLQDBEY9bmyL8sxfitGB7TMqkFPedBnQbkLsnbWt0VpBgac6aAYsyYZwRpwLlHB3Yn55eTurJC5sBOb401G1deMZGITdGIXmeZx9E4tQzjEsH79~zTn5cJddKk34~a71VDaVIOaMd-7SccTZGdAE6pngunqx8OeWr72WEpR26h9qG2dbpEvfaDzoQftq8w__"
+                    class="card-img-top px-5" alt="..." />
+                  <div class="card-body ">
+                    <h3 class="card-title shop-heading">Patty Buns Burgers</h3>
+                    <p class="card-text">
+                      Patty Buns Burgers is renowned for its diverse selection of gourmet burgers, including options
+                      with Angus beef, chicken, or vegetarian patties, all served on freshly baked buns.
+                    </p>
+                    <div class="d-flex justify-content-between ">
+                      <h5 class="shop-heading">$17.00</h5>
+
+                      <div class="mx-3">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-sm ">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="m-5">
+              <nav aria-label="Page navigation example ">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item disabled">
+                    <a class="page-link"><i class="fa-solid fa-less-than"></i> </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#"><i class="fa-solid fa-greater-than"></i></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer Section start here  -->
+  <footer>
+    <div class="container my-3">
+      <h1 class="h2 my-3">Subscribe Newsletter</h1>
+      <hr />
+      <img class="img-fluid"
+        src="https://s3-alpha-sig.figma.com/img/399f/4ad6/8c38067c495691e306369d58ed681fb6?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pXVqp94lpG0dzZh6hGZXFGvk74c1Re2EQ5XV7JZa7U4CtyUPPQetwoEU6TscC7XHrpcFL~SqBEVeupt1TytTtjTeEowUkTPMRtXqd7d7lWh-~qQODo8Z97EXCak1XRWcVQQIsbkzugcdn-1IfYdmxMjcxJzzdt3I2EijUhO6TtaNo-GC-wJ6Ki45dZIyX8Q6DY0bca2BxU5J~D8vmhSQl0WlL8UjRghfXd5-DZT8p1KbrFut5MCl0BKoMqD3oRxlMkXt1kxyB-7WY8rBl39b9ZxrW7t1hc2ojtFos4-CrM1f60fdgUvAdlNX0qgqIS3EL9xJYkfnh2-3b7PI-bb7Lg__"
+        id="heading-img-6" alt="" />
+
+      <div class="row">
+        <div class="d-flex flex-row col-md-6">
+          <div class="d-flex flex-column mx-5">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://png.pngtree.com/png-clipart/20230628/original/pngtree-kitchen-logo-vector-png-image_9234692.png"
+                alt="Logo" width="50" height="45" class="d-inline-block align-text-top" />
+              Foodies
+            </a>
+            <p>
+              Address: Bilaspur, Masanganj,<br />
+              Chhattisgarh 495001
+            </p>
+            <h5 class="h6">Make Call</h5>
+          </div>
+          <div class="d-flex flex-column mx-5">
+            <h4 class="h5">Opening Hours</h4>
+            <p>Monday-Friday: 8am to 4pm</p>
+            <p>Saturday: 8am to 4pm</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex flex-column">
+            <h4 class="h5">Book Your Table</h4>
+            <div class="dropdown my-2">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-user mx-2"></i>
+                4 People
+              </button>
+            </div>
+            <div class="dropdown my-2">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-suitcase-rolling mx-2"></i>
+                21.06.2021
+              </button>
+            </div>
+            <div class="dropdown my-2">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-regular fa-clock mx-3"></i>
+                08:00 PM
+              </button>
+            </div>
+            <form>
+              <label for="exampleInputEmail1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Your E-mail Address." />
+              <button type="submit" class="btn btn-primary m-1 mb-5">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer Section end here  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
