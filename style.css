@@ -329,13 +329,9 @@ footer .btn {
   color: #00000080;
 }
 
-.about-owl-theme .about-card {
-  background-color: var(--cardbg);
-}
-
-
 .about-card img {
-  height: 330px;
+  height: 200px;
+  max-height: 230px;
 }
 
 .about-card-text {
@@ -353,6 +349,9 @@ footer .btn {
   margin-right: 20px;
   margin-left: 5px;
 
+}
+.owl-nav{
+  display: none;
 }
 
 /* --------------------------------------------About Us Page Style End here -----------------------------------------
@@ -663,6 +662,8 @@ footer .btn {
   .order-map p span {
     display: none;
   }
+ 
+ 
 }
 
 @media (max-width: 768px) {
@@ -674,7 +675,7 @@ footer .btn {
     font-size: 20px;
     right: 10px;
   }
-
+ 
   .Shop-cart p {
     font-size: 8px;
   }
@@ -701,6 +702,14 @@ footer .btn {
   .shop .col-8 {
     width: 100%;
   }
+  
+  .order-map p span {
+    display: none;
+  }
+  footer {
+    padding: 20px; /* Adjust the padding value as needed */
+}
+
 }
 
 @media (min-width: 992px) {
